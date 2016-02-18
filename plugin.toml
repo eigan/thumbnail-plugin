@@ -1,0 +1,17 @@
+title = "Thumbnail creator"
+main = "Tagstore\\Plugin\\ThumbnailCreator"
+
+[config.thumbnails]
+title = "Thumbnails"
+
+[config.thumbnails.path]
+type  = "path"
+title = "Thumbnails path"
+desc  = "Path to where thumbnails should be placed"
+value = "./.thumbnails/"
+
+[config.thumbnails.path]
+type  = "select"
+options = ["High", "Medium", "Low"]
+title = "Thumbnails quality"
+value = "Medium"

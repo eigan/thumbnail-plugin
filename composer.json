@@ -1,0 +1,13 @@
+{
+    "name": "eigan/thumbnail-creator",
+    "description": "Plugin",
+
+    "require": {
+        "eigan/tagstore": "dev-master",
+        "eventviva/php-image-resize": "1.5.*"
+    },
+
+    "autoload": {
+        "psr-4": {"Tagstore\\Plugin\\": "src/"}
+    }
+}
